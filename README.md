@@ -2,16 +2,16 @@
 A simple distributed storage model
 
 #### 介绍：
-本项目是学习胡世杰老师的分布式对象存储课程的训练项目，如果您有疑问，可以在issues 里给我留言。非常欢迎您与我交流，也感谢胡世杰老师的指导。
+本项目是学习胡世杰老师的分布式对象存储课程的训练项目，如果您有疑问，可以在issues 里给我留言。非常欢迎您与我交流，也感谢胡世杰老师的指导。
 
 #### 使用说明：
 测试环境： go 1.10.4 ; Fedora 28; RabbitMQ 3.6.16
 - 包安装: go get "github.com/streadway/amqp" 
-- 创建 apiServers 和 dataServers 两个exchange, type: fanout
+- 创建 apiServers 和 dataServers 两个exchange, type: fanout
 - 创建超级用户 yaoxu yaoxu , 拥有最高权限
 
 请依次运行tools 中脚本: 
-- ip.sh : 配置 虚拟IP 方便测试 
+- ip.sh : 配置虚拟IP 方便测试 
 - initenv.sh : /tmp 文件中, 创建存储文件 
 - startenv.sh : 批量开启服务器 
 
@@ -19,8 +19,8 @@ A simple distributed storage model
 - stop.sh : 关掉所有的服务进器程 
 
 #### 实现功能：
-- REST 接口
-- 可扩展性、分布式
+- REST 接口
+- 可扩展性、分布式 
 - 使用消息队列进行解耦
 
 #### 目录概览：
