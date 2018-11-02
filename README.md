@@ -9,13 +9,13 @@ A simple distributed storage model
 - 包安装: go get "github.com/streadway/amqp" 
 - 创建 apiServers 和 dataServers 两个exchange, type: fanout
 - 创建超级用户 yaoxu yaoxu , 拥有最高权限
-- 使用 go get 命令把此项目拉取到go工作空间中
+- 使用 go get 命令把此项目拉取到go工作空间中
 
 请依次运行tools 中脚本: 
 - ip.sh : 配置虚拟IP 方便测试 
 - initenv.sh : /tmp 文件中, 创建存储文件 
 - startenv.sh : 批量开启服务器 
-- 使用 ps aux | grep go 查看运状态
+- 使用 ps aux | grep go 查看运状态
 
 关闭：
 - stop.sh : 关掉所有的服务进器程 
