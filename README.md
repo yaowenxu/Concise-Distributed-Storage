@@ -13,7 +13,7 @@ A simple distributed storage model
 请依次运行tools 中脚本: 
 - ip.sh : 配置虚拟IP 方便测试 
 - initenv.sh : /tmp 文件中, 创建存储文件 
-- startenv.sh : 批量开启服务器 
+- startenv.sh : 批量开启服务器 
 
 关闭：
 - stop.sh : 关掉所有的服务进器程 
