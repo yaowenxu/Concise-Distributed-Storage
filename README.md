@@ -1,7 +1,7 @@
 # Distributed-Storage
 
 #### 介绍：
-本项目是学习胡世杰老师的分布式对象存储课程的训练项目，如果您有疑问，可以在issues 里给我留言。非常欢迎您与我交流，也感谢胡世杰老师的指导。
+本项目是学习胡世杰作者的分布式对象存储课程的训练项目;
 
 #### 使用说明：
 测试环境： go 1.10.4 ; Fedora 28; RabbitMQ 3.6.16
@@ -72,6 +72,5 @@
 
 ```
 
----
-保持更新，转载请注明出处。 http://www.cnblogs.com/xuyaowen
+保持更新，转载请注明出处。 https://www.cnblogs.com/xuyaowen/p/Distributed-Storage.html
 
