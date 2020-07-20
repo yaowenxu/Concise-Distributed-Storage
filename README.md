@@ -1,5 +1,4 @@
-# Concise-Distributed-Storage
-A simple distributed storage model
+# Distributed-Storage
 
 #### 介绍：
 本项目是学习胡世杰老师的分布式对象存储课程的训练项目，如果您有疑问，可以在issues 里给我留言。非常欢迎您与我交流，也感谢胡世杰老师的指导。
